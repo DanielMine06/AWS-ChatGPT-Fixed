@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #232f3e;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #232f3e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form input[type=text],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type=submit] {
+            background-color: #232f3e;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Amazon Web Services Products</h1>
+        <div class="product">
+            <div>
+                <h2>Amazon EC2</h2>
+                <p>Elastic Compute Cloud (EC2) provides scalable computing capacity in the Amazon Web Services (AWS) cloud.</p>
+                <ul>
+                    <li>Flexible</li>
+                    <li>Scalable</li>
+                    <li>Reliable</li>
+                </ul>
+            </div>
+            <img src="https://via.placeholder.com/150" alt="EC2">
+        </div>
+        <div class="product">
+            <div>
+                <h2>Amazon S3</h2>
+                <p>Simple Storage Service (S3) is object storage built to store and retrieve any amount of data from anywhere.</p>
+                <ul>
+                    <li>Durable</li>
+                    <li>Scalable</li>
+                    <li>Secure</li>
+                </ul>
+            </div>
+            <img src="https://via.placeholder.com/150" alt="S3">
+        </div>
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <footer>
+        &copy; 2024 AWS. All rights reserved.
+    </footer>
+
+    <script>
+        console.log('JavaScript loaded!');
+    </script>
+</body>
+
+</html>
